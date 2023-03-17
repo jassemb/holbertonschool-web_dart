@@ -2,11 +2,11 @@ int whoWins(Map<String, int> teamA, Map<String, int> teamB){
   int teamAPoints = calculatePoints(teamA);
   int teamBPoints = calculatePoints(teamB);
   
-  print('Team A points: $teamAPoints');
-  print('Team B points: $teamBPoints');
+  //print('Team A points: $teamAPoints');
+  //print('Team B points: $teamBPoints');
 
-  //if (teamAPoints > teamBPoints) return 1;
-  //if (teamAPoints < teamBPoints) return 2;
+  if (teamAPoints > teamBPoints) return 1;
+  if (teamAPoints < teamBPoints) return 2;
   
   return 0;
 }
